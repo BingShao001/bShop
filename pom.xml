@@ -58,33 +58,33 @@
     <!--nexus start-->
     <repositories>
         <repository>
-            <id>vipShopMavenCentral</id>
-            <name>vipShopMavenCentral</name>
-            <url>http://mvn1.tools.vipshop.com/nexus/content/groups/public</url>
+            <id>ybShopMavenCentral</id>
+            <name>ybShopMavenCentral</name>
+            <url>http://mvn1.tools.ybshop.com/nexus/content/groups/public</url>
         </repository>
         <repository>
-            <id>vipShopMavenSnapshotRepository</id>
-            <name>vipShopMavenSnapshotRepository</name>
-            <url>http://mvn1.tools.vipshop.com/nexus/content/repositories/snapshots</url>
+            <id>ybShopMavenSnapshotRepository</id>
+            <name>ybShopMavenSnapshotRepository</name>
+            <url>http://mvn1.tools.ybshop.com/nexus/content/repositories/snapshots</url>
         </repository>
         <repository>
-            <id>vipShopMavenReleaseRepository</id>
-            <name>vipShopMavenReleaseRepository</name>
-            <url>http://mvn1.tools.vipshop.com/nexus/content/repositories/releases</url>
+            <id>ybShopMavenReleaseRepository</id>
+            <name>ybShopMavenReleaseRepository</name>
+            <url>http://mvn1.tools.ybshop.com/nexus/content/repositories/releases</url>
         </repository>
     </repositories>
 
     <!--deploy-->
     <distributionManagement>
         <repository>
-            <id>vipShopMavenReleaseRepository</id>
-            <name>vipShopMavenReleaseRepository</name>
-            <url>http://mvn1.tools.vipshop.com/nexus/content/repositories/releases</url>
+            <id>ybShopMavenReleaseRepository</id>
+            <name>ybShopMavenReleaseRepository</name>
+            <url>http://mvn1.tools.ybshop.com/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>vipShopMavenSnapshotRepository</id>
-            <name>vipShopMavenSnapshotRepository</name>
-            <url>http://mvn1.tools.vipshop.com/nexus/content/repositories/snapshots</url>
+            <id>ybShopMavenSnapshotRepository</id>
+            <name>ybShopMavenSnapshotRepository</name>
+            <url>http://mvn1.tools.ybshop.com/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
     <!--nexus end-->
